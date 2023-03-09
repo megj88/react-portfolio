@@ -1,0 +1,41 @@
+.projects__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.portfolio__cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  
+}
+
+
+
+
+/* Medium Devices */ 
+
+@media screen and (max-width: 1024px) {
+
+    .projects__container {
+        grid-template-columns: 1fr 1fr;
+        padding: 1rem;
+       }
+    
+    
+}
+
+
+
+/* Small Devices */ 
+
+@media screen and (max-width: 600px) {
+    .projects__container {
+        grid-template-columns: 1fr;
+    }
+}
