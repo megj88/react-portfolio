@@ -4,11 +4,6 @@ import emailjs from '@emailjs/browser';
 import "./contact.css"
 import {AiOutlineMail} from "react-icons/ai"
 import {AiFillLinkedin} from "react-icons/ai"
-import {AiFillGithub} from "react-icons/ai"
-import {AiFillInstagram} from "react-icons/ai"
-import {BsLinkedin} from "react-icons/bs"
-import {BsGithub} from "react-icons/bs"
-import {BsInstagram} from "react-icons/bs"
 
 function Contact() {
   const form = useRef();
@@ -34,13 +29,13 @@ function Contact() {
             <AiOutlineMail className="contact__option-icon" />
             <h4>Email:</h4>
             <h5>megan@meganjones.it</h5>
-            <a href="mailto:megan@meganjones.it" target="_blank">Send me a message</a>
+            <a href="mailto:megan@meganjones.it" target="_blank" rel="noopener noreferrer">Send me a message</a>
           </article>
           <article className="contact__option">
             <AiFillLinkedin className="contact__option-icon" />
             <h4>LinkedIn:</h4>
             <h5>@Megan Jones</h5>
-            <a href="https://www.linkedin.com/in/megan-jones-a25462ab/" target="_blank">Send me a message</a>
+            <a href="https://www.linkedin.com/in/megan-jones-a25462ab/" target="_blank" rel="noopener noreferrer">Send me a message</a>
           </article>
       
         </div>

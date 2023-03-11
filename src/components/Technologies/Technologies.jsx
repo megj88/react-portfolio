@@ -4,7 +4,6 @@ import {AiFillHtml5} from "react-icons/ai"
 import {SiCss3} from "react-icons/si"
 import {SiJavascript} from "react-icons/si"
 import {FaGitSquare} from "react-icons/fa"
-import {BsFillBootstrapFill} from "react-icons/bs"
 import {FaReact} from "react-icons/fa"
 function Technologies() {
   return (

@@ -9,7 +9,7 @@ import Technologies from "./components/Technologies/Technologies"
 
 const App = () => {
   return (
-    <div className="app">
+    <div className="app home">
 <Header /> 
 <Nav />
 <About />

@@ -1,7 +1,6 @@
 import React from 'react'
 import "./projects.css"
 import Bari from "../../Assets/Bari.png"
-import Clock from "../../Assets/clock.png"
 import Weather from "../../Assets/Reactweather.png"
 import Dictionary from "../../Assets/Dictionary.png"
 
@@ -31,6 +30,7 @@ function Projects() {
             <a
               href="https://bari-travel-page.netlify.app//"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn"
               title="Preview my responsive webpage"
               >Preview</a
@@ -39,6 +39,7 @@ function Projects() {
             <a
               href="https://github.com/megj88/travel-page"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-primary"
               title="See my code on GitHub"
               >Github</a
@@ -64,6 +65,7 @@ function Projects() {
             <a
               href="https://delightful-rugelach-bc18da.netlify.app/"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn"
               title="Preview my weather app"
               >Preview</a
@@ -72,6 +74,7 @@ function Projects() {
             <a
               href="https://github.com/megj88/react-weather-search"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-primary"
               title="See my code on GitHub"
               >Github</a
@@ -98,6 +101,7 @@ function Projects() {
             <a
               href="https://heartfelt-marshmallow-86de8c.netlify.app/"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn"
               title="Preview my dictionary app"
               >Preview</a
@@ -106,6 +110,7 @@ function Projects() {
             <a
               href="https://github.com/megj88/dictionary-project"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-primary"
               title="See my code on GitHub"
               >Github</a
